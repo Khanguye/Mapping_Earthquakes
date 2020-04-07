@@ -64,6 +64,7 @@ Create the earthquake map with different based maps and the earthquakes in 7 day
 ![earthquakes_lightmap.png](earthquakes_lightmap.png)
 
 **Earthquakes overlay**
+
 ![earthquakes_overlay.png](earthquakes_overlay.png)
 
 
