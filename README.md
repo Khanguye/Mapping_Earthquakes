@@ -44,9 +44,9 @@ Create the earthquake map with different based maps and the earthquakes in 7 day
 
 **Files**
 --
-1. [logic.js](Mapping_Earthquakes/Earthquake_Challenge/static/js/logic.js) <-- the map controller
-2. [index.html](Mapping_Earthquakes/Earthquake_Challenge/index.html) <-- Map viewer
-3. [style.css](Mapping_Earthquakes/Earthquake_Challenge/static/css/style.css) <-- format styles
+1. [logic.js](Earthquake_Challenge/static/js/logic.js) <-- the map controller
+2. [index.html](Earthquake_Challenge/index.html) <-- Map viewer
+3. [style.css](Earthquake_Challenge/static/css/style.css) <-- format styles
 
 **Screenshots**
 ---
