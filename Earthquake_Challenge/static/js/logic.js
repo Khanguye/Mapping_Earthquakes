@@ -131,17 +131,6 @@ legend.addTo(map);
 
 // Grabbing our GeoJSON data and load to front-ground layer
 
-// Tectonic Plate
-d3.json(tectonicPlateData).then(function(data){
-  // Creating a GeoJSON layer with the retrieved data.
-  L.geoJson(data,{
-    style: styleLine
-  })
-  .addTo(tectonicPlates);
-
-  tectonicPlates.addTo(map);
-});
-
 // eathquakes 7 days
 d3.json(earthquake7dData).then(function(data){
   // Creating a GeoJSON layer with the retrieved data.
@@ -156,6 +145,17 @@ d3.json(earthquake7dData).then(function(data){
   }).addTo(earthquakes);
 
   earthquakes.addTo(map);
+});
+
+// Tectonic Plate
+d3.json(tectonicPlateData).then(function(data){
+  // Creating a GeoJSON layer with the retrieved data.
+  L.geoJson(data,{
+    style: styleLine
+  })
+  .addTo(tectonicPlates);
+
+  tectonicPlates.addTo(map);
 });
 
 
